@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #E1003C;
+  font-weight: bolder;
+  border-bottom: 5px solid #E1003C;
+}
+
+.App-body {
+  padding: 20px;
+  flex-grow: 1;
+  gap: 5px;
+
+}
+
+.App-body label,
+.App-body input,
+.App-body button {
+  margin-right: 10px;
+}
+
+.App-footer {
+  border-top: 5px solid #E1003C;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
