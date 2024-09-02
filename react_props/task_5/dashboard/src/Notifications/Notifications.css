@@ -1,0 +1,43 @@
+.Notification_components {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Notification_components_title {
+  text-align: right;
+}
+
+.Notifications {
+  border: 3px dashed #E1003C;
+  padding: 20px;
+}
+
+.Notifications ul li[data-notification-type="default"] {
+  color: blue;
+}
+
+.Notifications ul li[data-notification-type="urgent"] {
+  color: red;
+}
+
+strong {
+  font-weight: 900;
+}
+
+.close-button {
+  float: right;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+}
+
+.close-button:hover {
+  opacity: 0.7;
+}
+
+.close-button img {
+  width: 100%;
+}
