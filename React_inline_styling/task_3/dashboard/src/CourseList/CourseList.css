@@ -1,0 +1,22 @@
+#CourseList{
+    border: 1px solid lightgray;
+    font-size: large;
+    margin : 0 auto;
+    width: 90%;
+    margin-top: 20px;
+}
+.CourseListRow_title{
+    border-bottom: 3px solid lightgray;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 10px 0;
+}
+
+.CourseListRow {
+    border-bottom: 3px solid lightgray;
+    text-align: start;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 5px 0;
+}
